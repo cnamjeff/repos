@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataList", "KataList\KataList.csproj", "{774D37A5-723D-43BC-8949-C91BAC022D31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{774D37A5-723D-43BC-8949-C91BAC022D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{774D37A5-723D-43BC-8949-C91BAC022D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{774D37A5-723D-43BC-8949-C91BAC022D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{774D37A5-723D-43BC-8949-C91BAC022D31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A04D9659-96BD-4958-A148-08782AF00A91}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,3 @@
+// A mettre dans un Assembly.info qui est dans le fichier properties
+
+[assembly:Parallelizable(ParalleScope.Fixtures)]

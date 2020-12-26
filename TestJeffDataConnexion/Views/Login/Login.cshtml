@@ -1,0 +1,100 @@
+﻿@model List<TestJeffDataConnexion.Models.LoginLock>
+@{
+    ViewBag.Title = "Login";
+
+}
+<!--insertion de la page gérant les accès bloqués-->
+<!--redirige vers le controleur InterfaceBlock et la méthode _VueLoginBlock afin d'afficher la page-->
+<div id="InterfaceBlock">
+    @Html.Action("_LoginLock", "InterfaceLock")
+
+</div>
+<br />
+
+<fieldset class="fieldset-default">
+    <legend class="scheduler-border">Gestion des accès login</legend>
+    <!-- une nouvelle partie qui gère le choix du status-->
+    <div class="pull-right" style="position:absolute">
+        <label for="state">Type de Status</label>
+        <select name="state" id="state">
+            <option value=""></option>
+            <option value="Rejected">Rejected</option>
+            <option value="BlockedByLogin">BlockedByLogin</option>
+            <option value="BlockedByIp">BlockedByIp</option>
+            <option value="Authorized">Authorized</option>
+
+        </select>
+    </div>
+
+    <div class="row">
+        <div class="nav a-centernav-pills nav-stacked">
+
+            <div class="col-md-9 col-md-push-3">
+                <!--partie gérant la date minimum et la date maximum-->
+                <table name="general">
+                    <div class="container">
+
+                        <div class='col-md-5'>
+                            <div class="form-group">
+                                <div class='input-daterange input-group'>
+                                    <input type='text' data-toggle="tooltip" data-placement="top" title="annee,mois,jours" class="form-control" id='datetimepicker6' name="datetimepicker6" placeholder="date de début de recherche" />
+                                    <span class="input-group-addon">
+                                        <span class="glyphicon glyphicon-calendar"></span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class='col-md-5'>
+                            <div class="form-group">
+                                <div class='input-daterange input-group'>
+                                    <input type='text' data-toggle="tooltip" data-placement="top" title="annee,mois,jours" class="form-control" id='datetimepicker7' name="datetimepicker7" placeholder="date de fin de recherche" />
+                                    <span class="input-group-addon">
+                                        <span class="glyphicon glyphicon-calendar"></span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </table>
+
+
+            </div>
+            <h2></h2>
+            <!--formulaire gérant le tableau-->
+            <table id="login" class="table table-striped table-bordered" cellspacing="0" width="100%">
+
+                <thead>
+                    <tr>
+                        <th>Login</th>
+                        <th>IpAddress</th>
+                        <th>Web service</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+            </table>
+            <h2></h2>
+
+        </div>
+    </div>
+</fieldset>
+
+@section scripts {
+    <script src="~/Scripts/VueLogin/Index.js"></script>
+    <script type="text/javascript">
+        window.ListingHandler = "@Url.Action("ListingHandler", "Login", new {Area = ""})";
+        window.table = {};
+
+
+        $(document).ready(function () {
+            //ce tooltip gère le tooltip de la page Login. Il est utilisé par l'input des champs dates
+            $('[data-toggle="tooltip"]').tooltip();
+            //méthode appelant le fichier Scripts/VueLogin/Index.js et qui gère le tableau Gestion des accès login
+            Initialisation();
+
+        });
+
+    </script>
+}

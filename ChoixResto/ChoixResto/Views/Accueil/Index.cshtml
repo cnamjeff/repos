@@ -1,0 +1,48 @@
+﻿@*@model ChoixResto.Models.Resto*@
+@model ChoixResto.ViewModels.AccueilViewModel
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div>
+    Je suis la vue index
+</div>
+@*<ul>
+        <li>@ViewData["message"]</li>
+        <li>@(((DateTime)ViewData["date"]).ToString("dd/MM/yyyy"))</li>
+        <li>@(((ChoixResto.Models.Resto)ViewData["resto"]).Nom)</li>
+        <li>@(((ChoixResto.Models.Resto)ViewData["resto"]).Telephone)</li>
+    </ul>
+    <ul>
+        <li>@ViewData["message"]</li>
+        <li>@(((DateTime)ViewData["date"]).ToString("dd/MM/yyyy"))</li>
+        @{
+            ChoixResto.Models.Resto resto = (ChoixResto.Models.Resto)ViewData["resto"];
+        }
+        <li>@resto.Nom</li>
+        <li>@resto.Telephone</li>
+    </ul>*@
+<
+<div>
+    Je suis la vue index
+</div>
+@*<ul>
+        <li>@Model.Message</li>
+        <li>@Model.Date.ToString("dd/MM/yyyy")</li>
+
+
+    </ul>*@
+ObtientFichier
+@Html.Action("ObtientFichier")
+
+@Html.Label("estMajeur", "Cochez la case si vous êtes majeur")
+@Html.CheckBox("estMajeur", true)
+<input type="submit" value="Envoyer" />
+
+@Html.DropDownList("RestoChoisi", (SelectList)ViewBag.ListeDesRestos)
+
+
+
+@Html.Partial("Connexion", Model)
+@Html.Action("AfficheListeRestaurant")

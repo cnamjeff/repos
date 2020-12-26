@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TestPatternJeff.Automobile">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAEAgAAAAAAAAAAAAAAAABAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Automobile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TestPatternJeff.AutomobileElectrique">
+    <Position X="0.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AutomobileElectrique.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestPatternJeff.AutomobileEssence">
+    <Position X="3.25" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AutomobileEssence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestPatternJeff.FabriqueVehiculeElectrique">
+    <Position X="5.25" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>FabriqueVehiculeElectrique.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestPatternJeff.FabriqueVehiculeEssence">
+    <Position X="8" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAABAA=</HashCode>
+      <FileName>FabriqueVehiculeEssence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestPatternJeff.Scooter" Collapsed="true">
+    <Position X="2" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAgAAAAAAAAAAAAAAAABAAABAEAAAAAAAAAIAAA=</HashCode>
+      <FileName>Scooter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TestPatternJeff.ScooterElectrique" Collapsed="true">
+    <Position X="1.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScooterElectrique.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestPatternJeff.ScooterEssence" Collapsed="true">
+    <Position X="3" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScooterEssence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestPatternJeff.Program">
+    <Position X="8.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="TestPatternJeff.IFabriqueVehiculeElectrique" Collapsed="true">
+    <Position X="5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>IFabriqueVehiculeElectrique.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TestPatternJeff.IFabriqueVehiculeEssence" Collapsed="true">
+    <Position X="8" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAABAA=</HashCode>
+      <FileName>IFabriqueVehiculeEssence.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Couplage FortFaible", "Couplage Fort\Couplage FortFaible.csproj", "{3EA630A4-D121-46E7-9271-EAAB91F8B0EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CouplageFortMetierr", "CouplageFortMetierr\CouplageFortMetierr.csproj", "{0A76B108-733A-4EBF-9595-7EB2D39979DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EA630A4-D121-46E7-9271-EAAB91F8B0EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA630A4-D121-46E7-9271-EAAB91F8B0EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA630A4-D121-46E7-9271-EAAB91F8B0EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA630A4-D121-46E7-9271-EAAB91F8B0EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A76B108-733A-4EBF-9595-7EB2D39979DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A76B108-733A-4EBF-9595-7EB2D39979DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A76B108-733A-4EBF-9595-7EB2D39979DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A76B108-733A-4EBF-9595-7EB2D39979DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8251892-524B-486A-A183-017EB98D6674}
+	EndGlobalSection
+EndGlobal

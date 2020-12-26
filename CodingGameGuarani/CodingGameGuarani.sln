@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30323.103
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingGameGuarani", "CodingGameGuarani.csproj", "{2319CE7D-3EB2-4DA1-9E45-3D74D22C0039}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillValueAgixis", "..\SkillValueAgixis\SkillValueAgixis.csproj", "{5E405FA1-4442-4702-BCA2-66B5F52B8AC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2319CE7D-3EB2-4DA1-9E45-3D74D22C0039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2319CE7D-3EB2-4DA1-9E45-3D74D22C0039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2319CE7D-3EB2-4DA1-9E45-3D74D22C0039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2319CE7D-3EB2-4DA1-9E45-3D74D22C0039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E405FA1-4442-4702-BCA2-66B5F52B8AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E405FA1-4442-4702-BCA2-66B5F52B8AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E405FA1-4442-4702-BCA2-66B5F52B8AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E405FA1-4442-4702-BCA2-66B5F52B8AC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3569D61C-83A9-4883-B250-A36CEEC2DC9C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+﻿@model  List<dataFirst.Models.user>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Databasefirst</h1>
+
+    <table>
+        <tr>
+            <th>id</th>
+            <th>prenom</th>
+            <th>name</th>
+          
+
+        </tr>
+        @{
+        foreach (var user in Model)
+        {
+        <tr>
+            <td>@user.id</td>
+            <td>@user.firstName</td>
+            <td>@user.name</td>
+            
+
+        </tr>
+    }
+        }
+    </table>
+</div>
+

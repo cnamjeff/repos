@@ -1,0 +1,2 @@
+﻿CouplageFort.DAOImpl2
+CouplageFort.MetierImpl

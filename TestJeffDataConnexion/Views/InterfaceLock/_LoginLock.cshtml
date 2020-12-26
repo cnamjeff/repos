@@ -1,0 +1,40 @@
+﻿@model List<LoginLock>
+@using TestJeffDataConnexion.Models
+
+
+<fieldset class="fieldset-default">
+    <legend class="scheduler-border">Suivi des blocages</legend>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>Value</th>
+                <th>Supprimer</th>
+            </tr>
+        </thead>
+
+
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.LockType</td>
+                <td>@item.LockedValue</td>
+
+                <td>
+
+                    @Ajax.ActionLink("supprimer", "Delete", "InterfaceLock",
+                    new { Type = item.LockType, Value = item.LockedValue },
+                    new AjaxOptions() { HttpMethod = "POST", UpdateTargetId = "InterfaceBlock" }, null)
+
+
+
+                </td>
+
+            </tr>
+        }
+      
+    </table>
+</fieldset>
+
